@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.content {
+    display: flex;
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: 600;
+} 
+
+.logo span{
+    color: blue;
+}
+
+header {
+    margin-left: 6.1875rem;
+    margin-top: 2.875rem;
+    margin-bottom: 1.9375rem;
+    background: white;
+    color: black;
+}
+
+#home {
+    background: url(./assets/backgroud01.jpg) no-repeat center/cover;
+    height: 100vh;
+    justify-content: center;
+}
+
+#home .text {
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+#home h2 {
+    font-size: 3.4375rem;
+    font-weight: 600;
+    margin-bottom: 1.125rem;
+}
+
+#home p {
+    max-width: fit-content;
+    font-weight: 400;
+    opacity: 0.9;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+#home .button {
+    padding: 1.25rem 3.875rem;
+
+    border-radius: 3.125rem;
+    border: 0.1875rem solid white;
+
+    background: transparent;
+    color: white;
+
+    font-weight: 500;
+    font-size: 1.125rem;
+    text-decoration: none;
+}
+
+footer {
+    margin-left: 6.1875rem;
+    margin-top: 2.875rem;
+    margin-bottom: 1.9375rem;
+}
+
+
+footer ul {
+    align-content: end;
+}
+footer ul li {
+    list-style: none;
+    
+}
