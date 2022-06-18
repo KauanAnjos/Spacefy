@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?w8d05r');
+  src:  url('fonts/icomoon.eot?w8d05r#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?w8d05r') format('truetype'),
+    url('fonts/icomoon.woff?w8d05r') format('woff'),
+    url('fonts/icomoon.svg?w8d05r#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-astronaut-helmet-protection-for-outer-space-svgrepo-com:before {
+  content: "\e900";
+}
+.icon-menu-burger:before {
+  content: "\e901";
+}
+.icon-cross:before {
+  content: "\e902";
+}
+.icon-github:before {
+  content: "\e903";
+}
+.icon-instagram:before {
+  content: "\e904";
+}
+.icon-linkedin:before {
+  content: "\e905";
+}
