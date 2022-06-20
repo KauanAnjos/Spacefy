@@ -9,12 +9,17 @@ body {
 }
 
 .content {
-    display: flex;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
 }
 
 .logo {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
+}
+
+.logo .astronaut img{
+    width: 1.6rem;
 }
 
 header {
@@ -26,8 +31,10 @@ header {
 }
 
 #home {
+    max-height: 135vw;
     background: url(./assets/backgroud01.jpg) no-repeat center/cover;
     height: 100vh;
+    display: flex;
     justify-content: center;
 }
 
@@ -35,20 +42,18 @@ header {
     color: white;
     text-align: center;
     margin-top: 5rem;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 #home h2 {
-    font-size: 1.71875rem;
+    font-size: 1.8rem;
     font-weight: 600;
-    margin-bottom: 0.5625rem;
+    margin-bottom: 0.6rem;
 }
 
 #home p {
     max-width: fit-content;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 0.7rem;
     opacity: 0.9;
     text-align: center;
     margin-bottom: 2.5rem;
@@ -56,120 +61,97 @@ header {
 }
 
 #home .button {
-    padding: 0.625rem 1.9375rem;
+    padding: 0.725rem 2rem;
 
     border-radius: 3.125rem;
-    border: 0.1875rem solid white;
+    border: 0.1875rem solid;
 
     background: transparent;
     color: white;
 
     font-weight: 500;
-    font-size: 0.625rem;
+    font-size: 0.725rem;
     text-decoration: none;
 }
 
 footer {
-    display: flex;
-    margin-left: 1.1875rem;
     margin-top: 2.875rem;
-    margin-bottom: 1.9375rem;
+    margin-bottom: 1.94rem;
 }
 
-
-footer ul {
-    align-content: end;
+footer .logo {
+    font-size: 1.5rem;
+    margin-bottom: 0.7rem;
 }
+
 footer ul li {
     list-style: none;
 }
 
+footer p {
+    margin-bottom: 0.7rem;
+}
+
 .social-links {
     display: flex;
-    gap: 13px;
+    gap: 1.5rem;
 }
 
-.social-links li {
-    justify-content: center;
-}
-
-.social-links li a {
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
+.social-links li a i img {
+    width: 1.6rem;
 }
 
 
 @media (min-width: 750px) {
-    .content {
-        display: flex;
-    }
     
     .logo {
-        font-size: 1.7rem;
-        font-weight: 600;
+        font-size: 1.8rem;
     }
     
-    header {
-        margin-left: 6.1875rem;
-        margin-top: 2.875rem;
-        margin-bottom: 1.9375rem;
-        background: white;
-        color: black;
-    }
-    
-    #home {
-        background: url(./assets/backgroud01.jpg) no-repeat center/cover;
-        height: 100vh;
-        justify-content: center;
+    header .logo{
+        margin-left: 6.2rem;
+        margin-top: 2.9rem;
+        margin-bottom: 1.9rem;
     }
     
     #home .text {
-        color: white;
-        text-align: center;
         margin-top: 10rem;
     }
     
     #home h2 {
-        font-size: 3.4375rem;
-        font-weight: 600;
+        font-size: 3.5rem;
         margin-bottom: 1.125rem;
     }
     
     #home p {
-        max-width: fit-content;
-        font-weight: 400;
-        font-size: 16px;
-        opacity: 0.9;
-        text-align: center;
+        font-size: 1rem;
         margin-bottom: 5rem;
     }
     
     #home .button {
-        padding: 1.25rem 3.875rem;
-    
-        border-radius: 3.125rem;
-        border: 0.1875rem solid white;
-    
-        background: transparent;
-        color: white;
-    
-        font-weight: 500;
+        padding: 1.25rem 3.9rem;
         font-size: 1.125rem;
-        text-decoration: none;
     }
     
-    footer {
-        margin-left: 6.1875rem;
-        margin-top: 2.875rem;
-        margin-bottom: 1.9375rem;
+    footer .logo{
+        font-size: 2.2rem;
+        margin-left: 6.19rem;
+        margin-top: 2.9rem;
+        margin-bottom: 1.94rem;
     }
     
+    footer p {
+        margin-bottom: 1rem;
+        margin-left: 6.19rem;
+    }
+
+    .social-links {
+        margin-left: 6.19rem;
+        gap: 2rem;
+    }
+
+    .social-links li a i img {
+        width: 2rem;
+    }
     
-    footer ul {
-        align-content: end;
-    }
-    footer ul li {
-        list-style: none;
-    }
 }
