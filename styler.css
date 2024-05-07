@@ -74,6 +74,10 @@ header {
     text-decoration: none;
 }
 
+section p {
+    margin: 0 20%;
+}
+
 footer {
     margin-top: 2.875rem;
     margin-bottom: 1.94rem;
